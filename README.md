@@ -17,7 +17,7 @@ Control an LED from any device connected to the same Wi-Fi network using a web b
 ### Connections
 
 | ESP32 Pin | Component |
-|-----------|-----------|
+|-----------|------------|
 | GPIO 2 | LED (+) through 220Ω resistor |
 | GND | LED (-) |
 
@@ -29,10 +29,24 @@ Control an LED from any device connected to the same Wi-Fi network using a web b
 ### Files
 - Led_Control.ino
 
+## Project Demonstration
+
+### Dashboard
+![Dashboard](dashboard.png)
+
+### LED ON State
+![LED ON](led_on.jpeg)
+
+### LED OFF State
+![LED OFF](led_off.jpeg)
+
+### Circuit Diagram
+![Circuit](circuit.jpeg)
+
 ## Future Projects
 - DC Fan Control using L298N
 - Home Automation Dashboard
 - MQTT Device Control
 
 ## Author
-Pratham Shah
+**Pratham Shah**
