@@ -1,52 +1,82 @@
-# ESP32-Web-Dashboard-Projects
+# ESP32 Web Dashboard Projects
 
-This repository contains IoT projects built using ESP32 and a web-based dashboard.
+A collection of IoT projects built using ESP32 and web-based dashboards.
 
-## Project 1: LED Control using ESP32
+These projects demonstrate how ESP32 can be used as a standalone web server to monitor and control devices through a browser without requiring a dedicated mobile application.
 
-### Overview
-Control an LED from any device connected to the same Wi-Fi network using a web browser.
+## Features
 
-### Components Required
-- ESP32 Development Board
-- LED
-- 220Ω Resistor
-- Breadboard
-- Jumper Wires
+- Real-time device monitoring
+- Web-based control interface
+- ESP32 Wi-Fi connectivity
+- Responsive dashboard design
+- Easy-to-understand hardware implementation
+- Beginner-friendly IoT projects
 
-### Connections
+## Projects Included
 
-| ESP32 Pin | Component |
-|-----------|------------|
-| GPIO 2 | LED (+) through 220Ω resistor |
-| GND | LED (-) |
+### 1. LED Control Dashboard
+Control an LED remotely through a web browser connected to the same Wi-Fi network.
 
-### Features
-- Web-based dashboard
-- LED ON/OFF control
-- ESP32 acts as a web server
+**Features**
+- Turn LED ON/OFF
+- Real-time status updates
+- Simple web dashboard
 
-### Files
-- Led_Control.ino
+### 2. Fan Control Dashboard
+Control a DC fan using ESP32 through a web-based dashboard.
 
-## Project Demonstration
+**Features**
+- Fan ON/OFF control
+- Browser-based operation
+- Motor driver integration
 
-### Dashboard
-![Dashboard](dashboard.png)
+## Technologies Used
 
-### LED ON State
-![LED ON](led_on.jpeg)
+- ESP32
+- Arduino IDE
+- HTML
+- CSS
+- JavaScript
+- Wi-Fi Networking
+- Embedded C++
 
-### LED OFF State
-![LED OFF](led_off.jpeg)
+## Repository Structure
 
-### Circuit Diagram
-![Circuit](circuit.jpeg)
+```
+ESP32-Web-Dashboard-Projects
+│
+├── Led_Control
+│   ├── README.md
+│   └── Project Files
+│
+├── Fan_dashboard
+│   ├── README.md
+│   └── Project Files
+│
+└── README.md
+```
 
-## Future Projects
-- DC Fan Control using L298N
-- Home Automation Dashboard
-- MQTT Device Control
+## Applications
+
+- Home Automation
+- Smart Device Control
+- IoT Learning Projects
+- Embedded Systems Practice
+- Web Server Based Automation
+
+## Future Enhancements
+
+- MQTT Integration
+- Sensor Monitoring
+- Mobile Responsive UI
+- Cloud Connectivity
+- Data Logging
+- Multi-device Dashboard
 
 ## Author
+
 **Pratham Shah**
+
+Electronics & Communication Engineering Student  
+Passionate about Embedded Systems, IoT, ESP32, and Web-Based Automation.
